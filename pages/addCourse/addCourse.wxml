@@ -1,0 +1,32 @@
+<view class='container'>
+  <form bindsubmit='submit'>
+    <view class='row'>
+      <text>课程名称：</text>
+      <input type='text' name="coursename" placeholder='请输入课程名称' ></input>
+    </view>
+    <view class='row'>
+     <text>星期：</text>
+     <input type='text' name='week' placeholder='请输入星期： 例：1' ></input>
+    </view>
+
+    <view class='row'>
+     <text>教室：</text>
+     <input type='text' name='classroom' placeholder='请输入教室名称 例：仙I-105' ></input>
+    </view>
+    <view class='row'>
+     <text>单双周：</text>
+     <input type='text' name='oddeven' placeholder='双周 0 单周 1 '></input>
+     </view>
+    <view class='row'>
+     <text>课程开始节数：</text>
+     <input type='text' name='kcstart' placeholder='请输入课程开始节数' ></input>
+    </view>
+    <view class="row">
+    <text>课程结束节数：</text>
+     <input type='twxt' name='kcend' placeholder='请输入课程结束节数' ></input>
+    </view>
+    <view>
+     <button form-type='submit' type='primary'>确定</button>
+    </view>
+  </form>
+</view>

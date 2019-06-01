@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/student/student",
+    "pages/teacher/teacher",
+    "pages/classroom/classroom",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/timetable/timetable",
+    "pages/detail/detail",
+    "pages/addCourse/addCourse"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#7cba23",
+    "navigationBarTitleText": "课程表",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "borderStyle": "black",
+    "selectedColor": "#11cd6e",
+    "list": [
+      {
+        "pagePath": "pages/welcome/welcome",
+        "text": "我的课表",
+        "iconPath": "image/student.jpg",
+        "selectedIconPath": "image/student-selected.jpg"
+      },
+      {
+        "pagePath": "pages/teacher/teacher",
+        "text": "教师课表",
+        "iconPath": "image/teacher.jpg",
+        "selectedIconPath": "image/teacher-selected.jpg"
+      },
+      {
+        "pagePath": "pages/classroom/classroom",
+        "text": "教室课表",
+        "iconPath": "image/classroom.jpg",
+        "selectedIconPath": "image/classroom-selected.jpg"
+      },
+      {
+        "pagePath": "pages/detail/detail",
+        "text": "个人信息",
+        "iconPath": "image/person.jpg",
+        "selectedIconPath": "image/person-selected.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

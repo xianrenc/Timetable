@@ -1,0 +1,12 @@
+<!--pages/teacher/teacher.wxml-->
+<view class='container'>
+  <form bindsubmit='submit'>
+    <view class='row'>
+      <text>教师：</text>
+      <input type='text' name="teacher" placeholder='请输入教师名称'></input>
+    </view>
+    <view>
+     <button form-type='submit' type='primary'>导入</button>
+    </view>
+  </form>
+</view>

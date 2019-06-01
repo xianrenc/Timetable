@@ -1,0 +1,8 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="container">
+ <image class="user_image" src="/image/login.jpg"></image>
+ <text>welcome</text>
+ <button class="moto-container" hover-class='hover' bindtap='go'>
+   <text>课程表</text>
+ </button>
+</view>

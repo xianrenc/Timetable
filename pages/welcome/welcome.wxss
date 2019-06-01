@@ -1,0 +1,6 @@
+/* pages/welcome/welcome.wxss */
+.hover{
+
+  background-color: gray;
+
+}

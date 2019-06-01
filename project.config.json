@@ -1,0 +1,70 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"uglifyFileName": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.0",
+	"appid": "wx7646622ef344e333",
+	"projectname": "homework",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "timetable",
+					"pathName": "pages/timetable/timetable",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "student",
+					"pathName": "pages/student/student",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "addCourse",
+					"pathName": "pages/addCourse/addCourse",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}
